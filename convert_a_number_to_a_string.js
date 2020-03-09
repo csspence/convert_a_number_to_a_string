@@ -8,6 +8,6 @@ numberToString(123); // returns '123';`
 numberToString(999); // returns '999';`
 */
 
-function numberToString(num) {
-  // Return a string of the number here!
+const numberToString = (num) => {
+  return num.toString();
 }
